@@ -1,0 +1,62 @@
+/* common */
+
+img {
+ max-width: 100%;
+}
+
+h2 {
+ font-size: 1.2rem;
+ font-weight: bold;
+ text-align: center;
+ margin-left: 16px;
+ margin-right: 16px;
+ color: rgb(117, 194, 107);
+ border-bottom: 2px solid rgb(117, 194, 107);
+}
+/* header */
+header {
+ background-color: rgb(117, 194, 107);
+ width: calc(100% - 8px);
+ padding: 8px;
+}
+
+.header_container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.posse {
+ width: 128px;
+}
+
+.icon_container {
+ display: flex;
+ gap: 24px;
+}
+.twitter {
+ width: 48px;
+}
+
+.instagram {
+ width: 48px;
+}
+
+ul {
+ display: flex;
+ justify-content: center;
+ gap: 32px;
+ padding-bottom: 8px;
+}
+
+li {
+ font-weight: bold;
+ color: white;
+}
+
+/* main */
+.hero {
+ width: 100%;
+}
+
+/* footer */
